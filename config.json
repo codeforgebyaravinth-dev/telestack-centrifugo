@@ -1,0 +1,16 @@
+{
+    "token_hmac_secret_key": "my_32_char_secret_key_testing_123",
+    "api_key": "my_api_key",
+    "presence": true,
+    "publish": true,
+    "subscribe": true,
+    "history": true,
+    "history_size": 100,
+    "history_ttl": "300s",
+    "admin": true,
+    "admin_password": "admin_password_change_me",
+    "admin_secret": "admin_secret_change_me",
+    "allowed_origins": [
+        "*"
+    ]
+}
