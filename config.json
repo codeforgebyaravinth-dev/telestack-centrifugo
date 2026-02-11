@@ -14,7 +14,6 @@
     "http_api": {
         "key": "api_7d2f9a1e4b83c5d6e0f1a2b3c4d5e6f7"
     },
-    "admin": true,
     "admin_password": "Telestack098*#@",
     "admin_secret": "Telestack-DB_-------12345%$#@!",
     "allow_subscribe_for_client": true,
