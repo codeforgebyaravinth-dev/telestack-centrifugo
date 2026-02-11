@@ -1,6 +1,6 @@
 {
-    "token_hmac_secret_key": "my_32_char_secret_key_testing_123",
-    "api_key": "my_api_key",
+    "token_hmac_secret_key": "5e8a7d6c5b4a3f2e1d0c9b8a7f6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1b0a9f8e",
+    "api_key": "api_7d2f9a1e4b83c5d6e0f1a2b3c4d5e6f7",
     "presence": true,
     "publish": true,
     "subscribe": true,
@@ -8,8 +8,8 @@
     "history_size": 100,
     "history_ttl": "300s",
     "admin": true,
-    "admin_password": "admin_password_change_me",
-    "admin_secret": "admin_secret_change_me",
+    "admin_password": "Telestack098*#@",
+    "admin_secret": "Telestack-DB_-------12345%$#@!",
     "allowed_origins": [
         "*"
     ]
