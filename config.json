@@ -4,8 +4,28 @@
             "hmac_secret_key": "5e8a7d6c5b4a3f2e1d0c9b8a7f6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1b0a9f8e"
         },
         "allowed_origins": [
-            "*"
-        ]
+            "http://localhost:8787",
+            "http://localhost:3000",
+            "https://telestack-realtime-db.codeforgebyaravinth.workers.dev"
+        ],
+        "allow_anonymous_connect_without_token": false,
+        "channel_limit": 128,
+        "ping_interval": "25s",
+        "pong_timeout": "8s",
+        "queue_max_size": 1048576,
+        "concurrency": 0,
+        "stale_close_delay": "10s"
+    },
+    "channel": {
+        "without_namespace": {
+            "allow_subscribe_for_client": true,
+            "allow_publish_for_client": true,
+            "presence": true,
+            "join_leave": true,
+            "history_size": 100,
+            "history_ttl": "300s",
+            "history_meta_ttl": "720h"
+        }
     },
     "http_api": {
         "key": "api_7d2f9a1e4b83c5d6e0f1a2b3c4d5e6f7"
@@ -14,5 +34,24 @@
         "enabled": true,
         "password": "Telestack098*#@",
         "secret": "Telestack-DB_-------12345%$#@!"
+    },
+    "health": {
+        "enabled": true
+    },
+    "prometheus": {
+        "enabled": true
+    },
+    "log": {
+        "level": "info"
+    },
+    "engine": {
+        "type": "memory"
+    },
+    "http_server": {
+        "port": "8000",
+        "address": "0.0.0.0"
+    },
+    "usage_stats": {
+        "disabled": false
     }
 }
