@@ -19,6 +19,7 @@
                 "allow_subscribe_for_client": true,
                 "allow_publish_for_client": false,
                 "allow_publish_for_subscriber": true,
+                "allow_presence_for_client": true,
                 "history_size": 100,
                 "history_ttl": "300s",
                 "history_meta_ttl": "720h"
@@ -30,6 +31,7 @@
                 "allow_subscribe_for_client": true,
                 "allow_publish_for_client": false,
                 "allow_publish_for_subscriber": true,
+                "allow_presence_for_client": true,
                 "history_size": 100,
                 "history_ttl": "300s",
                 "history_meta_ttl": "720h"
