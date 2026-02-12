@@ -11,14 +11,38 @@
         "allow_anonymous_connect_without_token": false
     },
     "channel": {
+        "namespaces": [
+            {
+                "name": "collection",
+                "presence": true,
+                "join_leave": true,
+                "allow_subscribe_for_client": true,
+                "allow_publish_for_client": false,
+                "allow_publish_for_subscriber": true,
+                "history_size": 100,
+                "history_ttl": "300s",
+                "history_meta_ttl": "720h"
+            },
+            {
+                "name": "path",
+                "presence": true,
+                "join_leave": true,
+                "allow_subscribe_for_client": true,
+                "allow_publish_for_client": false,
+                "allow_publish_for_subscriber": true,
+                "history_size": 100,
+                "history_ttl": "300s",
+                "history_meta_ttl": "720h"
+            }
+        ],
         "without_namespace": {
             "allow_subscribe_for_client": true,
             "allow_publish_for_client": true,
+            "allow_publish_for_subscriber": true,
             "presence": true,
             "join_leave": true,
             "history_size": 100,
-            "history_ttl": "300s",
-            "history_meta_ttl": "720h"
+            "history_ttl": "300s"
         }
     },
     "http_api": {
